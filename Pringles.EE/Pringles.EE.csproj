@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69BBDBDB-047D-4A7D-A1FF-89CCD8CCEDA9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pringles.EE</RootNamespace>
+    <AssemblyName>Pringles.EE</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Autor.cs" />
+    <Compile Include="AutorLibro.cs" />
+    <Compile Include="Caja.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Compra.cs" />
+    <Compile Include="ComprasPendientesDTO.cs" />
+    <Compile Include="ConsultaLibroMasCompraDTO.cs" />
+    <Compile Include="Criterio.cs" />
+    <Compile Include="CriterioLibro.cs" />
+    <Compile Include="DetalleCompra.cs" />
+    <Compile Include="DetalleDescuento.cs" />
+    <Compile Include="DetalleOrden.cs" />
+    <Compile Include="Direccion.cs" />
+    <Compile Include="Email.cs" />
+    <Compile Include="Factura.cs" />
+    <Compile Include="FacturaDTO.cs" />
+    <Compile Include="FacturaXML.cs" />
+    <Compile Include="Genero.cs" />
+    <Compile Include="HistorialCompraVentaLibro.cs" />
+    <Compile Include="Libro.cs" />
+    <Compile Include="MayorCompraDTO.cs" />
+    <Compile Include="MayorRapidezDTO.cs" />
+    <Compile Include="MenorPrecioDTO.cs" />
+    <Compile Include="Orden.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedor.cs" />
+    <Compile Include="RegistroCaja.cs" />
+    <Compile Include="RegistroCierre.cs" />
+    <Compile Include="Rol.cs" />
+    <Compile Include="Telefono.cs" />
+    <Compile Include="TelefonoCliente.cs" />
+    <Compile Include="TelefonoClienteDTO.cs" />
+    <Compile Include="TelefonoDTO.cs" />
+    <Compile Include="TipoTelefono.cs" />
+    <Compile Include="Usuario.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pringles.Utilities\Pringles.Utilities.csproj">
+      <Project>{dde5699f-08b2-4e5b-9892-4197db48f74d}</Project>
+      <Name>Pringles.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagrama_de_Clases_EE.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

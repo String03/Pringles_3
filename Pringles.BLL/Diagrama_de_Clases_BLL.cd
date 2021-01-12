@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pringles.BLL.AutorBLL">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAABAAAAAAAAAAAEQIAAAAAAAAAAAhA=</HashCode>
+      <FileName>AutorBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.CajaBLL">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAMAAAACAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>CajaBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.ClienteBLL">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAACAAAABAAAQAAAAAAAAAABAAAAAAAIA=</HashCode>
+      <FileName>ClienteBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.CompraBLL">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAgAIgAAAAAAAAAAIAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>CompraBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.CriterioBLL">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAgAAAAAAAACAAAIAAABAAAAAAACAAAAA=</HashCode>
+      <FileName>CriterioBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.CriterioLibroBLL">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAEAAAAAAgAIAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>CriterioLibroBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.DetalleCompraBLL">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAIAAAAAAAAACAAAAAAAgAAAAAgABAAAAAAA=</HashCode>
+      <FileName>DetalleCompraBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.DetalleDescuentoBLL">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAgAAQQAAAAAgAAAAAAAA=</HashCode>
+      <FileName>DetalleDescuentoBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.DetalleOrdenBLL">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQAAQAAAAAAAABAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DetalleOrdenBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.GeneroBLL">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAIAAAAAAAAEAAAAAAIAAAAAgAAAA=</HashCode>
+      <FileName>GeneroBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.HistorialCompraVentaLibroBLL">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAQAAAAAIAAAAAAAAACAAAAAAgAAAAAAA=</HashCode>
+      <FileName>HistorialCompraVentaLibroBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.LibroBLL" BaseTypeListCollapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACSIAoAQAAAAAAAAQAAAAgACBAEIAAIACgAAACAAAAA=</HashCode>
+      <FileName>LibroBLL.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pringles.BLL.LoginBLL">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAAAAAAAAAAAIAAAAAAAAACAAACAAAAAA=</HashCode>
+      <FileName>LoginBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.OrdenBLL">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAQABAAAAA=</HashCode>
+      <FileName>OrdenBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.ProveedorBLL">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAEwQAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProveedorBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.RegistroCajaBLL">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAgA=</HashCode>
+      <FileName>RegistroCajaBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.RegistroCierreBLL">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAQAAAAIAQAAAAEAAAAAAA=</HashCode>
+      <FileName>RegistroCierreBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.RolBLL">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAABAAAAAAAgAIAAAAAAAACAAAAAAIAAAA=</HashCode>
+      <FileName>RolBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.BLL.UsuarioBLL">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAIAAIAAAAAAAAQAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>UsuarioBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

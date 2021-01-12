@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pringles.EE.Autor">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEgEAAAABAAIAAIEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Autor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.AutorLibro">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCACAAAAQAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutorLibro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.Caja">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Caja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.Cliente">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAACAAAAAEAGgAAABgAAAAAAAgAAAAAggAACA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.Compra">
+    <Position X="12.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACgAIAAAAAAAAAhAAAAAAAAUgAEAAAAAAA=</HashCode>
+      <FileName>Compra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.ComprasPendientes">
+    <Position X="0.5" Y="7.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEAAAAgA=</HashCode>
+      <FileName>ComprasPendientes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.ConsultaLibroMasCompra">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="Pringles.EE.Libro" ManuallyRouted="true">
+      <Path>
+        <Point X="2" Y="1.5" />
+        <Point X="2" Y="1.599" />
+        <Point X="0.133" Y="1.599" />
+        <Point X="0.133" Y="1.8" />
+        <Point X="0.95" Y="1.8" />
+        <Point X="0.95" Y="3.655" />
+        <Point X="1.25" Y="3.655" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEAAAAgA=</HashCode>
+      <FileName>ConsultaLibroMasCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.Criterio">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAEAAAAgAACAAEAAAAAAAAAAAgI=</HashCode>
+      <FileName>Criterio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.CriterioLibro">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAACAAAAAACAAAgAAAAAEAAAAAAAAAAAgA=</HashCode>
+      <FileName>CriterioLibro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.DetalleCompra">
+    <Position X="9" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACACEAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DetalleCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.DetalleDescuento">
+    <Position X="15" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAkCAAAAAAQAAAAAAAAAABIhAAAAAgBAQAACAAAIAAA=</HashCode>
+      <FileName>DetalleDescuento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.DetalleOrden" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CRACACEAAAAAABAAgAACAAAAAAAAAEAAAAACAAAgAAA=</HashCode>
+      <FileName>DetalleOrden.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pringles.EE.Factura">
+    <Position X="5.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Factura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.Genero">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAgAAAAIAAIEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Genero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.HistorialCompraVentaLibro">
+    <Position X="9" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAABAAAAAAAAAAAAAgAAAAAEACEAAAAEAAAAA=</HashCode>
+      <FileName>HistorialCompraVentaLibro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.Libro">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAAIAAEBAAACBIhQQAAAAAgAqAAAAAIAFA=</HashCode>
+      <FileName>Libro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.MayorCompra">
+    <Position X="15.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>MayorCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.MayorRapidez">
+    <Position X="3.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAAAAAAAA=</HashCode>
+      <FileName>MayorRapidez.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.MenorPrecio">
+    <Position X="5.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAEAAAAAA=</HashCode>
+      <FileName>MenorPrecio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.Orden">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAAAAEIAAICICACgAAEAAAAAUAAEAAAAAAQ=</HashCode>
+      <FileName>Orden.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.Proveedor">
+    <Position X="9.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAEAABAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.RegistroCaja">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAAAAAAAAAAIAAAgAAAAAAAAAAACEAAAACA=</HashCode>
+      <FileName>RegistroCaja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.RegistroCierre">
+    <Position X="3.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAgAAAACAAgAAAAAACAAAAAAAAAAgA=</HashCode>
+      <FileName>RegistroCierre.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.Rol">
+    <Position X="5.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Rol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.EE.Usuario">
+    <Position X="7.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAEACEAEAIAEBgAAAAAAAAAAAAAgAAgAI=</HashCode>
+      <FileName>Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

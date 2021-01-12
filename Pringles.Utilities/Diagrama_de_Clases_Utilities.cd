@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pringles.Utilities.Attributes.KeyTableColumnAttribute">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\KeyTableColumnAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.Utilities.Attributes.TableAttribute">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\TableAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.Utilities.Attributes.TableColumnAttribute">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\TableColumnAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.Utilities.Attributes.TransientColumnAttribute">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\TransientColumnAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.Utilities.Consts.Connections">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Consts\Connections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.Utilities.Consts.PorcentajeVentas">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Consts\PorcentajeVentas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.Utilities.Consts.UserRoles">
+    <Position X="8" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEEAAAAAAAQAAAQABAAAAAAQAAAIAgAAAAAAA=</HashCode>
+      <FileName>Consts\UserRoles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.Utilities.Exceptions.CajaAbiertaException">
+    <Position X="1.75" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\CajaAbiertaException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.Utilities.Exceptions.CajaCerradaException">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\CajaCerradaException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.Utilities.Extensions.RepositoryExtensions">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEBAAAAAABQABAAAAFAAAiAABAAAAECAAAAAAA=</HashCode>
+      <FileName>Extensions\RepositoryExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.Utilities.Factories.ConnectionFactory">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ConnectionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pringles.Utilities.MD5PasswordHash">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MD5PasswordHash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
